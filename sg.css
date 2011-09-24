@@ -1,0 +1,47 @@
+body {
+    background-color: 444;
+}
+
+.slide {
+    font-family: "Lucida Grande";
+    font-size: 12pt;
+    background: url(bg.png);
+}
+
+h1, h2, h3, h4, h5, h6 {    
+    font-weight: bold;
+    color: #363636;
+}
+
+.title-slide h2 {
+    margin-bottom: 50px;
+}
+
+.title-slide h3 {
+    margin-top: 150px;
+}
+
+.whoami.content {
+    margin-top: 0;
+    float: left;
+}
+
+.bullets ul li {
+    color: #363636;
+    font-weight: bold;
+}
+
+.bullets ul ul li {
+    color: #000000;
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+.quotation {
+    font-size: 125%;
+    line-height: 2.5em;
+}
+
+.quotation .credit {
+    font-size: 100%;
+}
