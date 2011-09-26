@@ -119,7 +119,7 @@ Mikhail Panchenko, Surge 2011
 
 # Common Theme
 
-<big>Previously independent systems became coupled as a result of **unanticipated interactions**, leading to **fundamentally surprising** results</big>
+<big>Previously independent systems become coupled as a result of **unanticipated interactions**, leading to **fundamentally surprising** results</big>
 
 <!SLIDE>
 
