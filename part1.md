@@ -25,6 +25,7 @@ Mikhail Panchenko, Surge 2011
 <!SLIDE bullets>
 
 * <img src="sg.png" height="109"/>
+  * **TODO** tidy this up
   * Tools for developers
   * Primarily focused on services, some data-oriented APIs
   * PaaS? \*aaS, who gives a @%$#
@@ -35,9 +36,9 @@ Mikhail Panchenko, Surge 2011
 # Agenda
 * Goals
 * A little bit of theory
+* Challenges in The Cloud
 * Architecture
-* Challenges (read: The Cloud)
-* What works and what doesn't
+* Stories
 
 <!SLIDE>
 
@@ -125,7 +126,6 @@ Mikhail Panchenko, Surge 2011
 
 # When pumping radioactive water into the wrong tank, the behavior of the program is undefined
 
-
 <!SLIDE>
 
 # But where does The Cloud come in??
@@ -145,6 +145,16 @@ Mikhail Panchenko, Surge 2011
 <img src="trifle-annotated.png" height="500" />
 
 <small>Photo by <a href="http://www.flickr.com/photos/mathematically_impossible/4682284936/">mathematically_impossible</a></small>
+
+<!SLIDE>
+
+# A complex system consisting of complex subsystems
+
+<!SLIDE>
+
+<img src="turtles.jpg" height="500" />
+
+<small>Photo by <a href="http://www.flickr.com/photos/wwarby/2499825928/">wwarby</a></small>
 
 <!SLIDE>
 
@@ -178,6 +188,26 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
+# DECOUPLE DECOUPLE DECOUPLE
+
+### (introduce the architectural choices of software as they relate to all that)
+
+<!SLIDE>
+
+# Partition Tolerance
+
+## It's not just for outages
+
+<!SLIDE>
+
+# Config Management
+
+### Decouple from where you're deploying
+
+### (see http://aws.amazon.com/directconnect/)
+
+<!SLIDE>
+
 # The Birds 'n' the Bees
 
 <!SLIDE fixed-top>
@@ -200,3 +230,6 @@ Mikhail Panchenko, Surge 2011
   * Disk persistor - degradation over failure
   * See talk at 1:30PM
 
+<!SLIDE>
+
+# Put it all together
