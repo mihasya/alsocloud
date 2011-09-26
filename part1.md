@@ -73,7 +73,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE quotation>
 
-"The notion of baffling interactions is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in ever more hostile environments, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
+"The notion of **baffling interactions** is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in ever more hostile environments, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 72). Kindle Edition.</p>
 
@@ -149,7 +149,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE quotation>
 
-"The notion of baffling interactions is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in **ever more hostile environments**, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
+"The notion of **baffling interactions** is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in **ever more hostile environments**, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 72). Kindle Edition.</p>
 
@@ -161,7 +161,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE quotation>
 
-"The traffic shift was executed incorrectly and rather than routing the traffic to the other router on the primary network, the traffic was routed onto the lower capacity redundant EBS network. [...] **Unlike a normal network interruption, this change disconnected both the primary and secondary network simultaneously**, leaving the affected nodes completely isolated from one another."
+"**The traffic shift was executed incorrectly and rather than routing the traffic to the other router on the primary network, the traffic was routed onto the lower capacity redundant EBS network.** [...] Unlike a normal network interruption, this change disconnected both the primary and secondary network simultaneously, leaving the affected nodes completely isolated from one another."
 <p class="credit">"Summary of the Amazon EC2 and Amazon RDS Service Disruption in the US East Region"
     <a href="http://aws.amazon.com/message/65648/">http://aws.amazon.com/message/65648/</a></p>
 
