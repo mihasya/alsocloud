@@ -19,8 +19,6 @@ h1 {
     color: black;
 }
 
-
-
 .bullets ul li {
     font-weight: bold;
 }
@@ -48,4 +46,8 @@ h1 {
 
 small {
     font-size: 50%;
+}
+
+big {
+    font-size: 150%;
 }
