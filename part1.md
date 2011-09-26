@@ -60,11 +60,13 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# TODO: cover of Normal Accidents
+<img src="normal.jpg" height="500" class="shadow" />
+
+<small><a href="http://www.amazon.com/Normal-Accidents-Living-High-Risk-Technologies/dp/0691004129">http://www.amazon.com/Normal-Accidents-Living-High-Risk-Technologies/dp/0691004129</a></small>
 
 <!SLIDE quotation>
 
-__Complex interactions__ are those of unfamiliar sequences, or unplanned and unexpected sequences, and either not visible or not immediately comprehensible. 
+"__Complex interactions__ are those of unfamiliar sequences, or unplanned and unexpected sequences, and either not visible or not immediately comprehensible." 
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 78). Kindle Edition.</p>
 
@@ -74,9 +76,30 @@ __Complex interactions__ are those of unfamiliar sequences, or unplanned and une
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 72). Kindle Edition.</p>
 
+<!SLIDE>
+
+# Fortunately,<br /> This Is Only The Internet
+
 <!SLIDE quotation>
+<img src="sobchak.jpg" height="320" class="shadow" />
+
 "The beauty of this is its simplicity. Once a plan gets too complex, everything can go wrong."
+
 <p class="credit">Walter Sobchak, <em>The Big Lebowski</em></p>
+<!SLIDE>
+
+# Interactions
+
+## Linear vs Complex
+
+<!SLIDE>
+
+# Coupling
+
+## Tight vs Loose
+
+<!SLIDE>
+<img src="complexity.png" height="476"/>
 <!SLIDE>
 
 # The Birds 'n' the Bees
@@ -95,10 +118,9 @@ __Complex interactions__ are those of unfamiliar sequences, or unplanned and une
 
 <!SLIDE fixed-top>
 ## RabbitMQ
-  * Definitely a grenade for our knife-fight
-  * Very high throughput, both in and out
-  * Lots of concurrent connections/consumers
+  * A grenade for our knife-fight
+  * Very flexible - more than we need
   * 2.x bulletproof - no stability issues
-  * Disk persistor - well understood degradation
-
+  * Disk persistor - degradation over failure
+  * See talk at 1:30PM
 
