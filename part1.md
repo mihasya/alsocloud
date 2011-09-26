@@ -70,7 +70,7 @@ Mikhail Panchenko, Surge 2011
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 78). Kindle Edition.</p>
 
-<!SLIDEi quotation>
+<!SLIDE quotation>
 
 "The notion of baffling interactions is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in ever more hostile environments, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
 
@@ -99,7 +99,71 @@ Mikhail Panchenko, Surge 2011
 ## Tight vs Loose
 
 <!SLIDE>
+
 <img src="complexity.png" height="476"/>
+
+<!SLIDE>
+
+# But where does The Cloud come in??
+
+<!SLIDE>
+
+# The Trifle Metaphor
+
+<img src="trifle-plain.png" height="500" />
+
+<small>Photo by <a href="http://www.flickr.com/photos/mathematically_impossible/4682284936/">mathematically_impossible</a></small>
+
+<!SLIDE>
+
+# The Trifle Metaphor
+
+<img src="trifle-annotated.png" height="500" />
+
+<small>Photo by <a href="http://www.flickr.com/photos/mathematically_impossible/4682284936/">mathematically_impossible</a></small>
+
+<!SLIDE>
+
+# The Trifle Metaphor
+
+<img src="trifle-cloud1.png" height="500" />
+
+<small>Original photos by <a href="http://www.flickr.com/photos/mathematically_impossible/4682284936/">mathematically_impossible</a> and <a href="http://www.flickr.com/photos/miheco/2243228206/">miheco</a></small>
+
+<!SLIDE>
+
+# Tightly coupled to a complex system over which you have no control
+
+<!SLIDE>
+
+# The Trifle Metaphor
+
+<img src="trifle-troll.png" height="500" />
+
+<small>Original photos by <a href="http://www.flickr.com/photos/mathematically_impossible/4682284936/">mathematically_impossible</a> and <a href="http://www.flickr.com/photos/miheco/2243228206/">miheco</a></small>
+
+<!SLIDE>
+
+# Recall <br /> "Baffling Interactions"
+
+<!SLIDE quotation>
+
+"The notion of baffling interactions is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in **ever more hostile environments**, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
+
+<p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 72). Kindle Edition.</p>
+
+<!SLIDE quotation>
+
+"Since they assumed a pipe break somewhere and since the piping system in the plant is so complex that [...], there was reason to believe that the water could have come from any number of places. Indeed, later in the accident, they found that **radioactive water was not traveling to the tank they intended, but because of complex flow and pressure interactions, was going to a different, wrong tank**, which also overflowed, this time in the auxiliary building." 
+
+<p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (pp. 22-23). Kindle Edition.</p>
+
+<!SLIDE quotation>
+
+"The traffic shift was executed incorrectly and rather than routing the traffic to the other router on the primary network, the traffic was routed onto the lower capacity redundant EBS network. [...] **Unlike a normal network interruption, this change disconnected both the primary and secondary network simultaneously**, leaving the affected nodes completely isolated from one another."
+<p class="credit">"Summary of the Amazon EC2 and Amazon RDS Service Disruption in the US East Region"
+    <a href="http://aws.amazon.com/message/65648/">http://aws.amazon.com/message/65648/</a></p>
+
 <!SLIDE>
 
 # The Birds 'n' the Bees

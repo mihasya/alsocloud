@@ -3,9 +3,10 @@ body {
 }
 
 .slide {
-    font-family: "Lucida Grande";
+    font-family: "Gotham";
     font-size: 12pt;
     background: url(bg.png);
+    color: #363636;
 }
 
 h1, h2, h3, h4, h5, h6 {    
@@ -27,12 +28,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bullets ul li {
-    color: #363636;
     font-weight: bold;
 }
 
 .bullets ul ul li {
-    color: #000000;
     font-weight: normal;
     margin: 5px 0;
 }
