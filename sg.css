@@ -14,18 +14,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #363636;
 }
 
-.title-slide h2 {
-    margin-bottom: 50px;
+h1 {
+    font-family: "Markerfield";
+    color: black;
 }
 
-.title-slide h3 {
-    margin-top: 150px;
-}
 
-.whoami.content {
-    margin-top: 0;
-    float: left;
-}
 
 .bullets ul li {
     font-weight: bold;

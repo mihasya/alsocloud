@@ -1,15 +1,16 @@
 <!SLIDE title-slide>
 
-## Building a cloud service on a cloud infrastructure at
+# Building a cloud service on a cloud infrastructure at
 
 <img src="sg.png" height="109" />
 
-### Also, cloud.
+# Also, cloud.
 
 Mikhail Panchenko, Surge 2011
 <!SLIDE bullets>
 
-* Who am I?
+# Who am I?
+* 
   * Pancakes
   * Infrastructure Engineer at SimpleGeo
   * Backend Engineer at Flickr before that
@@ -40,7 +41,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-## Architectural Goals
+# Architectural Goals
 * High availability
 * Linear scalability
 * Elasticity
@@ -90,13 +91,13 @@ Mikhail Panchenko, Surge 2011
 
 # Interactions
 
-## Linear vs Complex
+# Linear vs Complex
 
 <!SLIDE>
 
 # Coupling
 
-## Tight vs Loose
+# Tight vs Loose
 
 <!SLIDE>
 
@@ -169,11 +170,11 @@ Mikhail Panchenko, Surge 2011
 # The Birds 'n' the Bees
 
 <!SLIDE fixed-top>
-## Write Path
+# Write Path
 <img src="birdsnbees1.png" height="501px"/>
 
 <!SLIDE fixed-top>
-## Cassandra
+# Cassandra
   * Homogenous distributed model
   * Random load distribution
   * A mostly-textbook DHT
@@ -181,7 +182,7 @@ Mikhail Panchenko, Surge 2011
   * A perfect foundation for our architecture (we'll get back to this)
 
 <!SLIDE fixed-top>
-## RabbitMQ
+# RabbitMQ
   * A grenade for our knife-fight
   * Very flexible - more than we need
   * 2.x bulletproof - no stability issues
