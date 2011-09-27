@@ -166,7 +166,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# Tightly coupled to a complex system over which you have no control
+# Tightly coupled to a complex system over which you have no control and into which you have no insight
 
 <!SLIDE>
 
@@ -189,6 +189,12 @@ Mikhail Panchenko, Surge 2011
 # DECOUPLE DECOUPLE DECOUPLE
 
 ### (introduce the architectural choices of software as they relate to all that)
+
+<!SLIDE>
+
+<img src="damper.jpg" height="480" class="shadow"/>
+
+<small>Photo by <a href="http://www.flickr.com/photos/erikcharlton/496486975/">erikcharlton</a></small>
 
 <!SLIDE>
 
