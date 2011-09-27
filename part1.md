@@ -152,7 +152,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-<img src="turtles.jpg" height="500" />
+<img src="turtles.jpg" height="500" class="shadow" />
 
 <small>Photo by <a href="http://www.flickr.com/photos/wwarby/2499825928/">wwarby</a></small>
 
