@@ -170,11 +170,9 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# The Trifle Metaphor
+<img src="dog.jpg" height="480" class="shadow" />
 
-<img src="trifle-troll.png" height="500" />
-
-<small>Original photos by <a href="http://www.flickr.com/photos/mathematically_impossible/4682284936/">mathematically_impossible</a> and <a href="http://www.flickr.com/photos/miheco/2243228206/">miheco</a></small>
+<small>Photo by <a href="http://www.flickr.com/photos/20after4/2302676207/">20after4</a></small>
 
 <!SLIDE>
 
