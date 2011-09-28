@@ -132,7 +132,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# The Trifle Metaphor
+# The Trifle Analogy
 
 <img src="trifle-plain.png" height="500" />
 
@@ -140,7 +140,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# The Trifle Metaphor
+# The Trifle Analogy
 
 <img src="trifle-annotated.png" height="500" />
 
@@ -158,7 +158,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# The Trifle Metaphor
+# The Trifle Analogy
 
 <img src="trifle-cloud1.png" height="500" />
 
