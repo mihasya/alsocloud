@@ -188,13 +188,28 @@ Mikhail Panchenko, Surge 2011
 
 # DECOUPLE DECOUPLE DECOUPLE
 
-### (introduce the architectural choices of software as they relate to all that)
-
 <!SLIDE>
 
 <img src="damper.jpg" height="480" class="shadow"/>
 
 <small>Photo by <a href="http://www.flickr.com/photos/erikcharlton/496486975/">erikcharlton</a></small>
+
+<!SLIDE>
+
+# Decouple your subsystems
+
+* Shared resources are the most common source of unexpected interaction
+* Resist temptation to double up on roles
+* Use queues, caches as buffers
+  * **NOTE**: those are complex subsystems of their own
+
+<!SLIDE>
+
+# Decouple your functionality
+* Service architecture
+* Each service does one thing well
+* Easier to measure, understand, and manage resource demands
+* Reduce potential for interactions, cross-functional failure
 
 <!SLIDE>
 
