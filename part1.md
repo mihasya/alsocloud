@@ -74,7 +74,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE quotation>
 
-"The notion of **baffling interactions** is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in ever more hostile environments, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
+"The notion of **baffling interactions** is increasingly familiar to all of us. [...] As systems grow in size and in the number of diverse functions they serve, and are built to function in ever more hostile environments, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 72). Kindle Edition.</p>
 
@@ -180,7 +180,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE quotation>
 
-"The notion of **baffling interactions** is increasingly familiar to all of us. It characterizes our social and political world as well as our technological and industrial world. As systems grow in size and in the number of diverse functions they serve, and are built to function in **ever more hostile environments**, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
+"The notion of **baffling interactions** is increasingly familiar to all of us. [...] As systems grow in size and in the number of diverse functions they serve, and are built to function in **ever more hostile environments**, increasing their ties to other systems, they experience more and more incomprehensible or unexpected interactions. They become more vulnerable to unavoidable system accidents."
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 72). Kindle Edition.</p>
 
