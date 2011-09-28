@@ -51,3 +51,7 @@ small {
 big {
     font-size: 150%;
 }
+
+strong {
+    background: #f5ffb4;
+}
