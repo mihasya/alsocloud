@@ -326,11 +326,52 @@ Mikhail Panchenko, Surge 2011
 
 <img src="arch-divided.png" height="515" />
 
+<!SLIDE>
+
+# ( now, how about those specifics )
+
 <!SLIDE fixed-top>
 
 # Write Path
 <img src="birdsnbees1.png" height="501px"/>
 
+<!SLIDE fixed-top>
+
+# ELB
+
+* Dynamic Load Balancing
+* Flexible virtual IP
+* Easy to add/remove AZs
+* Uses healthchecks to automatically evict nodes
+
+<!SLIDE fixed-top>
+
+# Gate - "Layer 8 Proxy"
+
+* Lightweight node.js daemon
+* OAuth
+* Rate Limiting
+* Basic routing to actual services
+
+<!SLIDE>
+# Recall<br />"Decouple Your Functionality"
+
+<!SLIDE fixed-top>
+
+# Services - Pick Your Own Adventure
+
+* Node.js and Python
+  * Some people just hate Node.js
+* Can be anything, as long as Gate can talk to it
+* Highly specialized
+
+<!SLIDE fixed-top>
+# RabbitMQ
+  * A grenade for our knife-fight
+  * Very flexible - more than we need
+  * 2.x very stable (1.x was good too)
+  * Disk persistor in >= 1.3 - degradation over failure
+  * See talk at 1:30PM
 
 <!SLIDE fixed-top>
 # Cassandra
@@ -338,7 +379,7 @@ Mikhail Panchenko, Surge 2011
   * Random load distribution
   * A mostly-textbook DHT
   * Generally well understood by developers
-  * A perfect foundation for our architecture (we'll get back to this)
+  * A perfect foundation for our architecture
 
 <!SLIDE>
 
@@ -346,13 +387,13 @@ Mikhail Panchenko, Surge 2011
 
 ## It's not just for outages
 
-<!SLIDE fixed-top>
-# RabbitMQ
-  * A grenade for our knife-fight
-  * Very flexible - more than we need
-  * 2.x bulletproof - no stability issues
-  * Disk persistor - degradation over failure
-  * See talk at 1:30PM
+<!SLIDE>
+
+# Recall<br /> "Divide & Conquer"
+
+<!SLIDE>
+
+<img src="arch-conquer.png" height="515" />
 
 <!SLIDE>
 
