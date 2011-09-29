@@ -215,19 +215,22 @@ Mikhail Panchenko, Surge 2011
 * Easier to measure, understand, and manage resource demands
 * Reduce potential for interactions, cross-functional failure
 
+<!SLIDE bullets fixed-top>
+
+# Decouple from Your Environment with Configuration Management
+
+*  
+    * Decouple from your platform (OS/kernel)
+      * Easy to test/bench potential candidates
+      * Easy to migrate if you find a winner
+    * Automate as much of deploy/bootstrap process as possible
+      * Probably won't help much during a provider outage due to stampede
+      * <strong>BUT:</strong> <a href="http://aws.amazon.com/directconnect/">DirectConnect</a>
+      * You might not always be in the cloud..
+
 <!SLIDE>
 
-# Partition Tolerance
-
-## It's not just for outages
-
-<!SLIDE>
-
-# Config Management
-
-### Decouple from where you're deploying
-
-### (see http://aws.amazon.com/directconnect/)
+# Decouple Your Datacenters
 
 <!SLIDE>
 
@@ -244,6 +247,12 @@ Mikhail Panchenko, Surge 2011
   * A mostly-textbook DHT
   * Generally well understood by developers
   * A perfect foundation for our architecture (we'll get back to this)
+
+<!SLIDE>
+
+# Partition Tolerance
+
+## It's not just for outages
 
 <!SLIDE fixed-top>
 # RabbitMQ
