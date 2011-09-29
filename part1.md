@@ -9,7 +9,7 @@
 Mikhail Panchenko, Surge 2011
 <!SLIDE bullets>
 
-# Who am I?
+# Who Am I?
 * 
   * Pancakes
   * Infrastructure Engineer at SimpleGeo
@@ -20,7 +20,6 @@ Mikhail Panchenko, Surge 2011
 * ____ 
   * @mihasya
   * pancakes@simplegeo.com
-
 
 <!SLIDE bullets>
 
@@ -196,16 +195,17 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# Decouple your subsystems
+# Decouple Your Subsystems
 
 * Shared resources are the most common source of unexpected interaction
 * Resist temptation to double up on roles
 * Use queues, caches as buffers
   * **NOTE**: those are complex subsystems of their own
 
+
 <!SLIDE>
 
-# Decouple your functionality
+# Decouple Your Functionality
 * Service architecture
 * Each service does one thing well
 * Easier to measure, understand, and manage resource demands
