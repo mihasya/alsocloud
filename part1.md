@@ -40,11 +40,12 @@ Mikhail Panchenko, Surge 2011
 * Stories
 
 <!SLIDE>
+.notes Note on elasticity - this isn't just about outages
 
 # Architectural Goals
 * High availability
 * Linear scalability
-* Elasticity
+* Elasticity/Flexibility
 * Redundancy/Fault Tolerance
 
 <!SLIDE>
@@ -52,6 +53,7 @@ Mikhail Panchenko, Surge 2011
 # Sound Familiar?
 
 <!SLIDE>
+.notes this talk isn't solely about the cloud, cloud adds challenges to universal problems
 
 # Some Theory, Food for Thought
 
@@ -67,7 +69,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE quotation>
 
-"__Complex interactions__ are those of unfamiliar sequences, or unplanned and unexpected sequences, and either not visible or not immediately comprehensible." 
+"__Complex interactions__ are those of unfamiliar sequences, or unplanned and unexpected sequences, and either **not visible** or **not immediately comprehensible**." 
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (p. 78). Kindle Edition.</p>
 
@@ -130,6 +132,7 @@ Mikhail Panchenko, Surge 2011
 # But where does The Cloud come in??
 
 <!SLIDE>
+.notes hat tip to Cal Henderson
 
 # The Trifle Analogy
 
@@ -194,6 +197,7 @@ Mikhail Panchenko, Surge 2011
 <small>Photo by <a href="http://www.flickr.com/photos/erikcharlton/496486975/">erikcharlton</a></small>
 
 <!SLIDE>
+.notes shared resources - flickr infinite recursion story
 
 # Decouple Your Subsystems
 
