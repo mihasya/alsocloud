@@ -196,7 +196,7 @@ Mikhail Panchenko, Surge 2011
 
 <small>Photo by <a href="http://www.flickr.com/photos/erikcharlton/496486975/">erikcharlton</a></small>
 
-<!SLIDE>
+<!SLIDE fixed-top>
 .notes shared resources - flickr infinite recursion story
 
 # Decouple Your Subsystems
@@ -206,13 +206,26 @@ Mikhail Panchenko, Surge 2011
 * Use queues, caches as buffers
   * **NOTE**: those are complex subsystems of their own
 
+<!SLIDE fixed-top>
+.notes shared resources - flickr infinite recursion story
 
-<!SLIDE>
+# Decouple Your Subsystems
+
+## Explicit Decoupling
+
+* CPU Affinity
+  * Webserver on 1-7; SSH etc on 8
+  * Crude, but gets the job done
+* More robust solutions - containers
+
+<img src="librato.png" height="60" />
+
+<!SLIDE fixed-top>
 
 # Decouple Your Functionality
 * Service architecture
 * Each service does one thing well
-* Easier to measure, understand, and manage resource demands
+* Easier to measure, understand, and accommodate resource demands
 * Reduce potential for interactions, cross-functional failure
 
 <!SLIDE bullets fixed-top>
@@ -228,10 +241,17 @@ Mikhail Panchenko, Surge 2011
       * <strong>BUT:</strong> <a href="http://aws.amazon.com/directconnect/">DirectConnect</a>
       * You might not always be in the cloud..
 
-<!SLIDE>
+<!SLIDE fixed-top>
 
 # Decouple Your Datacenters
+.notes "temporarily disable a datacenter" instead of coming up with elaborate failure strategies
 
+* Most robust redundancy mechanism
+* Hot-hot keeps you on your toes
+* Simplifies, not just for the cloud
+  * Yahoo! now foregoing datacenter features like HVAC
+  * "If it gets too hot in Washington, turn that DC off for a while"
+  * I'm sure they're not the only ones
 <!SLIDE>
 
 # The Birds 'n' the Bees
