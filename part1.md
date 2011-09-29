@@ -252,13 +252,84 @@ Mikhail Panchenko, Surge 2011
   * Yahoo! now foregoing datacenter features like HVAC
   * "If it gets too hot in Washington, turn that DC off for a while"
   * I'm sure they're not the only ones
+
+<!SLIDE fixed-top>
+
+# Decouple Your Datacenters
+
+* "AZ" - Basic building block for EC2
+* This is the level they (theoretically) decouple at
+* They are probably thinking along the same lines we are - must be able to turn off one AZ without impact in the other
+
+<!SLIDE>
+.notes stampede to the other datacenter if one goes down entirely; also, potential for AWS to fuck up (see EBS/RDS outage) - they are susceptible to all the same problems
+# ( there's a hidden interaction there )
+
+<!SLIDE>
+
+# Every datacenter as an independent microcosm of your overall architecture
+
 <!SLIDE>
 
 # The Birds 'n' the Bees
 
+<!SLIDE>
+
+# Bird's Eye View
+
+<img src="arch-basic.png" height="515" />
+
+<!SLIDE>
+
+# Bird's Eye View
+
+<img src="arch-labeled.png" height="515" />
+
+<!SLIDE>
+
+# ( note the absence of specifics )
+
+<!SLIDE>
+
+# Bird's Eye View
+
+<img src="arch-divided.png" height="515" />
+
+<!SLIDE>
+
+# Maintenance - Divide & Conquer
+
+<img src="arch-conquer.png" height="515" />
+
+<!SLIDE>
+
+# Local Degradation - Divide & Conquer
+
+<img src="arch-conquer.png" height="515" />
+
+<!SLIDE>
+
+# Incompatible Upgrade - Guess!
+
+<img src="arch-conquer.png" height="515" />
+
+<!SLIDE>
+
+# Incompatible Upgrade - Guess!
+
+<img src="arch-conquer2.png" height="515" />
+
+<!SLIDE>
+
+# Incompatible Upgrade - Yay!
+
+<img src="arch-divided.png" height="515" />
+
 <!SLIDE fixed-top>
+
 # Write Path
 <img src="birdsnbees1.png" height="501px"/>
+
 
 <!SLIDE fixed-top>
 # Cassandra
