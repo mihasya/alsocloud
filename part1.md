@@ -236,6 +236,7 @@ Mikhail Panchenko, Surge 2011
     * Decouple from your platform (OS/kernel)
       * Easy to test/bench potential candidates
       * Easy to migrate if you find a winner
+      * This is especially important when dealing with cloud
     * Automate as much of deploy/bootstrap process as possible
       * Probably won't help much during a provider outage due to stampede
       * <strong>BUT:</strong> <a href="http://aws.amazon.com/directconnect/">DirectConnect</a>
