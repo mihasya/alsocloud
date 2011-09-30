@@ -338,6 +338,22 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
+# Baffling Single Node Failure
+
+<img src="arch-queue.png" height="515" />
+
+<!SLIDE>
+
+# `202 Accepted`
+
+<!SLIDE>
+
+# Spike in Write Traffic
+
+<img src="arch-queue-full.png" height="515" />
+
+<!SLIDE>
+
 # ( now, how about those specifics )
 
 <!SLIDE fixed-top>
