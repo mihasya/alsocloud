@@ -23,21 +23,24 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE bullets>
 
-* <img src="sg.png" height="109"/>
-  * **TODO** tidy this up
-  * Tools for developers
-  * Primarily focused on services, some data-oriented APIs
-  * PaaS? \*aaS, who gives a @%$#
-  * Availability, redundancy part of brand
-  * No pressure
+<img src="sg.png" height="109"/>
+
+* 
+    * Tools for mobile/geo developers
+    * Primarily focused on services, some data-oriented APIs
+    * PaaS, I guess? I've lost track a bit
+    * Availability, redundancy part of brand
+        * Our outage = your outage
+    * No pressure
+
 <!SLIDE fixed-top>
 
 # Agenda
 * Goals
 * A little bit of theory
 * Challenges in The Cloud
-* Architecture
-* Stories
+* General Architecture
+* Implementation Details
 
 <!SLIDE>
 .notes Note on elasticity - this isn't just about outages
@@ -47,6 +50,10 @@ Mikhail Panchenko, Surge 2011
 * Linear scalability
 * Elasticity/Flexibility
 * Redundancy/Fault Tolerance
+
+<!SLIDE>
+
+# Read: don't wake me up, please
 
 <!SLIDE>
 
@@ -92,12 +99,14 @@ Mikhail Panchenko, Surge 2011
 <!SLIDE>
 
 # Interactions
+.notes Linear = assembly line, Complex = nuclear powerplant, web arch
 
 # Linear vs Complex
 
 <!SLIDE>
 
 # Coupling
+.notes tight = heart surgery, loose = dinner (dishes, groceries, fallback to pizza)
 
 # Tight vs Loose
 
@@ -195,6 +204,7 @@ Mikhail Panchenko, Surge 2011
 
 # DECOUPLE DECOUPLE DECOUPLE<br />( also, simplify )
 <!SLIDE>
+.notes tuned mass damper from Taipei
 
 <img src="damper.jpg" height="480" class="shadow"/>
 
@@ -286,7 +296,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-<img src="goround.jpg" height="480" />
+<img src="goround.jpg" height="480" class="shadow" />
 
 <small>Photo by <a href="http://www.flickr.com/photos/reschroederimages/4855353883/">reschroederimages</a></small>
 
@@ -362,7 +372,11 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# ( go back to sleep )
+# Go back to sleep
+
+<img src="sleep.jpg" height="375" class="shadow" />
+
+<small>Photo by <a href="http://www.flickr.com/photos/joshme17/">joshme17</a></small>
 
 <!SLIDE>
 
@@ -438,4 +452,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# Put it all together
+# Thank You!
+
+* @mihasya
+* pancakes@simplegeo.com
