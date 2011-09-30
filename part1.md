@@ -188,8 +188,7 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# DECOUPLE DECOUPLE DECOUPLE
-
+# DECOUPLE DECOUPLE DECOUPLE<br />( also, simplify )
 <!SLIDE>
 
 <img src="damper.jpg" height="480" class="shadow"/>
@@ -282,6 +281,12 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
+<img src="goround.jpg" height="480" />
+
+<small>Photo by <a href="http://www.flickr.com/photos/reschroederimages/4855353883/">reschroederimages</a></small>
+
+<!SLIDE>
+
 # Bird's Eye View
 
 <img src="arch-labeled.png" height="515" />
@@ -348,7 +353,7 @@ Mikhail Panchenko, Surge 2011
 
 # Gate - "Layer 8 Proxy"
 
-* Lightweight node.js daemon
+* Lightweight Node.js daemon
 * OAuth
 * Rate Limiting
 * Basic routing to actual services
@@ -375,11 +380,12 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE fixed-top>
 # Cassandra
+  * A mostly-textbook DHT
   * Homogenous distributed model
   * Random load distribution
-  * A mostly-textbook DHT
-  * Generally well understood by developers
   * A perfect foundation for our architecture
+  * Idempotent writes ideal for queueing
+    * Your usecase/mileage may vary
 
 <!SLIDE>
 
