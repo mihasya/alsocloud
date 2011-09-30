@@ -65,6 +65,7 @@ Mikhail Panchenko, Surge 2011
 # Some Theory, Food for Thought
 
 <!SLIDE>
+.notes reference Allspaw, Ben Fried for context
 
 # The Internets as Complex Systems
 
