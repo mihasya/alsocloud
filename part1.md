@@ -107,13 +107,18 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE quotation>
 
-"Since they assumed a pipe break somewhere and since the piping system in the plant is so complex that [...], there was reason to believe that the water could have come from any number of places. Indeed, later in the accident, they found that **radioactive water was not traveling to the tank they intended, but because of complex flow and pressure interactions, was going to a different, wrong tank**, which also overflowed, this time in the auxiliary building." 
+# Three Mile Island
+
+"... they found that radioactive water was not traveling to the tank they intended, but because of complex flow and pressure interactions, was going to a different, wrong tank, which also overflowed, this time in the auxiliary building." 
 
 <p class="credit">Charles Perrow. Normal Accidents: Living with High-Risk Technologies (pp. 22-23). Kindle Edition.</p>
 
 <!SLIDE quotation>
 
-"**The traffic shift was executed incorrectly and rather than routing the traffic to the other router on the primary network, the traffic was routed onto the lower capacity redundant EBS network.** [...] Unlike a normal network interruption, this change disconnected both the primary and secondary network simultaneously, leaving the affected nodes completely isolated from one another."
+# Amazon Web Services
+
+"The traffic shift was executed incorrectly and rather than routing the traffic to the other router on the primary network, the traffic was routed onto the lower capacity redundant EBS network." 
+
 <p class="credit">"Summary of the Amazon EC2 and Amazon RDS Service Disruption in the US East Region"
     <a href="http://aws.amazon.com/message/65648/">http://aws.amazon.com/message/65648/</a></p>
 
