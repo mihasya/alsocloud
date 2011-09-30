@@ -354,7 +354,19 @@ Mikhail Panchenko, Surge 2011
 
 <!SLIDE>
 
-# ( now, how about those specifics )
+# Really simple operational steps for stressful tasks & situations
+
+<!SLIDE>
+
+# Temporally decouple the problem from the resolution
+
+<!SLIDE>
+
+# ( go back to sleep )
+
+<!SLIDE>
+
+# Now, how about those specifics?
 
 <!SLIDE fixed-top>
 
@@ -389,14 +401,15 @@ Mikhail Panchenko, Surge 2011
 * Node.js and Python
   * Some people just hate Node.js
 * Can be anything, as long as Gate can talk to it
+  * ( another reason to decouple )
 * Highly specialized
 
 <!SLIDE fixed-top>
 # RabbitMQ
   * A grenade for our knife-fight
   * Very flexible - more than we need
-  * 2.x very stable (1.x was good too)
-  * Disk persistor in >= 1.3 - degradation over failure
+    * Simplification candidate
+  * New persistor in >= 1.3 - degradation over failure
   * See talk at 1:30PM
 
 <!SLIDE fixed-top>
@@ -404,9 +417,8 @@ Mikhail Panchenko, Surge 2011
   * A mostly-textbook DHT
   * Homogenous distributed model
   * Random load distribution
-  * A perfect foundation for our architecture
-  * Idempotent writes ideal for queueing
-    * Your usecase/mileage may vary
+  * Partition tolerance
+    * A perfect foundation for our architecture
 
 <!SLIDE>
 
@@ -419,6 +431,8 @@ Mikhail Panchenko, Surge 2011
 # Recall<br /> "Divide & Conquer"
 
 <!SLIDE>
+
+# This too is a partition
 
 <img src="arch-conquer.png" height="515" />
 
